@@ -76,7 +76,7 @@ function gameOver() {
 
 text.addEventListener('input', e => {
     const insertedText = e.target.value;
-    if (insertedText == currentWord) {
+    if (insertedText.toLowerCase() == currentWord) {
         e.target.value = '';
         addWordToDOM();
         updateScore();
