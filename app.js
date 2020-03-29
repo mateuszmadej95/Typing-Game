@@ -82,7 +82,7 @@ text.addEventListener('input', e => {
         updateScore();
 
         if (difficulty === 'easy') {
-            time += 5;
+            time += 4;
         } else if (difficulty === 'medium') {
             time += 3;
         } else if (difficulty === 'hard') {
