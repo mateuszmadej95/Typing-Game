@@ -1,0 +1,1 @@
+It is an app where we have to type the randomly generated words as fast as possible. We use https://random-word-api.herokuapp.com to generate them. There is also the difficulty selection section, which, after choosing, is stored in the local storage. I used async await ES6 syntax to deal with the fetched data. The game is available on https://madej-typinggame.netlify.app/
